@@ -1,4 +1,4 @@
-{% set version = '0.8.0' %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rbison_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rbison/rbison_{{ version }}.tar.gz
-  sha256: 82aac486b2d59a152df9d092103b0c69b7086b45ba0de560fdd5d4cd038e5e74
+  sha256: 9957e5f85ce68f5dd0ddc3c4b2b3c9d2f52d6f37587e1022ab8a44863534a83c
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -53,10 +53,7 @@ about:
   home: https://github.com/ropensci/rbison
   license: MIT
   license_file: LICENSE
-  summary: Interface to the 'USGS' 'BISON' (<https://bison.usgs.gov/>) API, a 'database' for
-    species occurrence data. Data comes from species in the United States from participating
-    data providers. You can get data via 'taxonomic' and location based queries. A simple
-    function is provided to help visualize data.
+  summary: Interface to the 'USGS' 'BISON' (<https://bison.usgs.gov/>) API, a 'database' for species occurrence data. Data comes from species in the United States from participating data providers. You can get data via 'taxonomic' and location based queries. A simple function is provided to help visualize data.
   license_family: MIT
 
 extra:
