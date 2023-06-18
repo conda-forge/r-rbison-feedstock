@@ -1,11 +1,11 @@
-About r-rbison
-==============
+About r-rbison-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rbison-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ropensci/rbison
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rbison-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to the 'USGS' 'BISON' (<https://bison.usgs.gov/>) API, a 'database' for species occurrence data. Data comes from species in the United States from participating data providers. You can get data via 'taxonomic' and location based queries. A simple function is provided to help visualize data.
 
